@@ -19,7 +19,7 @@
       #{entity.middleName},
       #{entity.lastName},
       #{entity.birthDate},
-      #{entity.role}
+      #{entity.role} :: mng.USER_ROLE
     )
   </insert>
 

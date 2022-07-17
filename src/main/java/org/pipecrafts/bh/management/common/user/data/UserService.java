@@ -21,9 +21,9 @@ public class UserService {
   public Long create(User user) {
     final var encodedPassword = passwordEncoder.encode(user.getPassword());
     user.setPassword(encodedPassword);
-    final var userId = userMapper.insert(user);
-    log.trace("User created [id=<{}>]", userId);
-    return userId;
+    userMapper.insert(user);
+    log.trace("User created [id=<{}>]", user.getId());
+    return user.getId();
   }
 
   public Optional<User> findByUsername(String userName) {

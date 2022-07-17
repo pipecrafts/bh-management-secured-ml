@@ -9,7 +9,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>org.pipecrafts</groupId>
-  <artifactId>bh-management</artifactId>
+  <artifactId>bh-management-secured-ml</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Bus Hub Management Service</name>
   <description>General Management features for bus lines</description>
@@ -87,17 +87,17 @@
       <scope>runtime</scope>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>jakarta.xml.bind</groupId>-->
-<!--      <artifactId>jakarta.xml.bind-api</artifactId>-->
-<!--      <version>4.0.0</version>-->
-<!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>jakarta.xml.bind</groupId>-->
+    <!--      <artifactId>jakarta.xml.bind-api</artifactId>-->
+    <!--      <version>4.0.0</version>-->
+    <!--    </dependency>-->
 
-<!--    <dependency>-->
-<!--      <groupId>org.glassfish.jaxb</groupId>-->
-<!--      <artifactId>jaxb-runtime</artifactId>-->
-<!--      <version>4.0.0</version>-->
-<!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>org.glassfish.jaxb</groupId>-->
+    <!--      <artifactId>jaxb-runtime</artifactId>-->
+    <!--      <version>4.0.0</version>-->
+    <!--    </dependency>-->
 
     <!--  Security End      -->
 
