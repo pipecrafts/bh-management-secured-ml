@@ -2,7 +2,6 @@ package org.pipecrafts.bh.management.security.userdetails;
 
 import lombok.RequiredArgsConstructor;
 import org.pipecrafts.bh.management.common.user.model.User;
-import org.pipecrafts.bh.management.common.user.model.UserRole;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -13,10 +12,6 @@ import java.util.List;
 public class SecurityUser implements UserDetails {
 
   private final User user;
-
-  public UserRole getRole() {
-    return user.getRole();
-  }
 
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
